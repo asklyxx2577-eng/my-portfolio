@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <h1>Mohamed Ali</h1>
+    <img src="images/mohamed.jpg" alt="Photo of Mohamed Ali" width="100">
+    <p>
+        Hello, my name is Mohamed Ali. I am a student in Egypt.
+        I am learning web development and cybersecurity.
+    </p>
+    <h2>Skills</h2>
+    <ul>
+        <li>Excel</li>
+        <li>HTML</li>
+        <li>English</li>
+    </ul>
+    <h2>Education</h2>
+    <p>
+        Faculty of Business Information Systems, Al-Azhar University
+    </p>
+    <h2>Courses</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>Cybersecurity</td>
+                <td>Planned</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Contact</h2>
+    <ul>
+        <li><a href="https://github.com/asklyxx2577-eng" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/mohamed-ali-abd-el-samad-63428a41b/" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:asklyxx2577@gmail.com">Email me</a></li>
+    </ul>
+    <section id="contact-form">
+        <h2>Send me a message</h2>
+        <form>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic">
+                    <option value="question">Question</option>
+                    <option value="job">Job offer</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea>
+            </p>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
